@@ -1,7 +1,5 @@
-div>span.mytext{Текст внутри span}
-
-ul>li*4>a*3
-
+div>span.mytext{Текст внутри span}  
+ul>li*4>a*3  
 .wrapper>header+main+footer
 
 ---------------------
