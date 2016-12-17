@@ -35,17 +35,17 @@ git pull    git fetch + git merge
 	
 2. Установка Git
 
-	Установка Git на Mac
+	* Установка Git на Mac
 
-	Установка Git на Windows
+	* Установка Git на Windows
 
-	Установка Git на Linux
+	* Установка Git на Linux
 	
-	Настройка Git
+	* Настройка Git
 
-	Автозаполнение в Git 
+	* Автозаполнение в Git 
 	
-	Использование Git help
+	* Использование Git help
 
 3. Начинаем
 
