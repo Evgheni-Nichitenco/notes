@@ -16,7 +16,7 @@ git fetch origin/master    Слияние локальной и онлайнов
 
 git pull    git fetch + git merge
 
-# Git - Обучение основам (Linda.com)
+# Git - Обучение основам (Linda.com, конспект)
 
 0. Введение
 
