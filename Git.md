@@ -26,7 +26,7 @@ git pull    git fetch + git merge
 1. Что такое Git?
 
 	* Системы контроля версий
-
+	
     ```
     VCS - аббревиатура система контроля версий.
     ```
@@ -48,6 +48,37 @@ git pull    git fetch + git merge
 	* Установка Git на Linux
 	
 	* Настройка Git
+	
+	```
+	Настройки, местонахождение:
+	System:   Program Files\Git\etc\gitconfig  
+	User:     Evgheni\.gitconfig  
+	Project:  my_project\.git\config
+
+	Изменение настроек (добавлять дополнительные команды):
+
+	System:   git config --system  
+	User:     git config --global  
+	Project:  git config
+
+git config --global user.name "имя пользователя"
+git config --global user.email "почтовый емейл"
+
+git config --list      Просмотр пользовательских установок
+git config user.name   Просмотр имени пользователя
+git config user.email  Просмотр емейла пользователя
+
+pwd Местонахождение
+
+ls -la Просмотр содержимого в папке
+
+cd ~  Перейти в папку пользователя
+
+cat .gitconfig  Просмотр файла .gitconfig
+
+git config --global core.editor "notepad.exe -wl1" Установка редактора для коммитов
+git config --global color.ui true                  Окрасить пользовательский интерфейс
+	```
 
 	* Автозаполнение в Git 
 	
