@@ -105,8 +105,8 @@ git pull    git fetch + git merge
 	* Создание первого коммита
 	
 	```
-	git add .
-        git commit -m "Первый коммит"
+	git add .  
+	git commit -m "Первый коммит"
 	```
 	
 	* Написание сообщения для коммита
