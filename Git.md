@@ -38,6 +38,9 @@ git pull    git fetch + git merge
 	* Установка Git на Mac
 
 	* Установка Git на Windows
+	
+    which git куда установлен гит  
+    git --version версия гит
 
 	* Установка Git на Linux
 	
