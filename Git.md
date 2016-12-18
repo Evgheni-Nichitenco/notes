@@ -87,7 +87,7 @@ git pull    git fetch + git merge
 	
 	```  
 	git help         Просмотр хелпа
-	git help --log   Просмотр хелпа для log
+	git help log   Просмотр хелпа для log
 
 	"f" "b"          Перемещаться по тексту хелпа вперед и назад
 	"q"              Покинуть хелп
