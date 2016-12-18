@@ -8,8 +8,6 @@ git log --oneline    Просмотр логов Гитхаба
 
 git fetch    Взять изменения с Гитхаба в локальный Гит
 
-git branch -a    Просмотр бранчей локальной и онлайновой версий.
-
 git fetch origin/master    Слияние локальной и онлайновых версий.
 
 git pull    git fetch + git merge
