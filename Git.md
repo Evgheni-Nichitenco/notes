@@ -1,7 +1,5 @@
 # Команды Гит и Гитхаб
 
-cat readme.md    Просмотр содержимого файла Ридми.Мд
-
 git log --oneline    Просмотр логов Гитхаба
 
 git fetch    Взять изменения с Гитхаба в локальный Гит
@@ -70,6 +68,7 @@ git pull    git fetch + git merge
 	cd ~  Перейти в папку пользователя
 
 	cat .gitconfig  Просмотр файла .gitconfig
+	cat readme.md    Просмотр содержимого файла Ридми.Мд
 
 	git config --global core.editor "notepad.exe -wl1" Установка редактора для коммитов
 	git config --global color.ui true                  Окрасить пользовательский интерфейс
