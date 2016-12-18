@@ -42,6 +42,7 @@ git pull    git fetch + git merge
 	* Настройка Git
 	
 	```
+    
 	Настройки, местонахождение:
 	
 	System:   Program Files\Git\etc\gitconfig  
