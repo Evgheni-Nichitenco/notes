@@ -340,6 +340,18 @@
 15. Инструменты и следующие шаги
 
 	* Настройка алиасов для общих команд
+
+	```
+	Алиасы лучше добавлять в глобальные настройки или в настройки пользователя конфига.
+
+	Пример создания алиаса:
+	git config --global alias.co checout
+	git config --global alias.ci commit
+	git config --global alias.br branch
+	git config --global alias.df diff
+	git config --global alias.dfs "diff --staged"
+	git config --global alias.logg "log --graph --decorate --oneline --abbrev-commit --all"
+	```
 	* Использование SSH ключей для удаленного логина
 	* Что такое IDE
 	* Графические пользовательские интерфейсы
