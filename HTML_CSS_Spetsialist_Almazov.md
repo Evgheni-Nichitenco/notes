@@ -193,6 +193,8 @@ a - альфаканал
 ```
 * Свойство display
 
+        https://codepen.io/nichitenco/pen/vLjQXe
+
 ```
     * display: inline-block  
     Между элементами появляются пробелы (текстовые "элементы-пустышки")
@@ -224,3 +226,10 @@ a - альфаканал
     Совместно с padding-top и padding-bottom следует корректировать line-height,
     иначе строки будут "наезжать" друг на друга.
 ```
+
+* Современный метод верстки с помощью свойства display: table
+
+    ```
+    https://codepen.io/nichitenco/pen/xZzxLE
+    ```
+    
