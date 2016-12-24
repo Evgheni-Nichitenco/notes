@@ -291,6 +291,11 @@ a - альфаканал
     border-bottom-right-radius: 10px;
     ```
 * Практическая работа по верстке. Панель меню в духе Виндовс 8
-```
-https://codepen.io/nichitenco/pen/dGKGLL
-```
+    ```
+    https://codepen.io/nichitenco/pen/dGKGLL
+    ```
+* Практическая работа по верстке. Четыре квадрата
+    ```
+    https://codepen.io/nichitenco/pen/xZzOGw
+
+    ```
