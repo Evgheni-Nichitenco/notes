@@ -354,3 +354,19 @@ WebStorage - локальные базы данных ("продвинуты к�
 ```
 https://codepen.io/nichitenco/pen/OMExKx
 ```
+* Переменные в SCSS
+
+```
+$main-width: 800px;
+$main-height: 400px;
+
+.rectangle {
+	    width: $main-width;
+	    heigt: $main-height;		
+	    margin-left: $main-width / 2;
+	    margin-top: $main-height / 2;
+	    margin-left: - ($main-width / 2);
+	    margin-top: - ($main-height / 2);
+	   }
+```
+В чистом CSS переменные пока не работают. Только в SCSS.
