@@ -8,6 +8,8 @@ div>span.mytext{Текст внутри span}
 ul>li*4>a*3
 
 .wrapper>header+main+footer
+
+a.button{ссылка}*3
 ```
 ------------
 
@@ -370,3 +372,58 @@ $main-height: 400px;
 	   }
 ```
 В чистом CSS переменные пока не работают. Только в SCSS.
+
+* Выровняет блоки по верхнему краю:
+```
+vertical-align: top   
+```
+
+* Свойство родительского элемента text-align: center выравнивает блоки по центру по горизонтали.
+
+* Многострочный курсор: 
+```
+Выбрать символ и нажать ctrl+ d 
+``` 
+
+* Сделать картинку круглой:
+```
+Надо родительскому элементу написать свойства
+
+border-radius: 50%;
+overflow: hidden;
+```
+
+* Примеси (mixin) в SCSS
+
+```
+@mixin button() {
+		   display: inline-block;
+		   margin: 4px;
+		   wisdth: 200px;
+		   height: 80px;
+		   text-align: center;
+		   line-height: 80px;
+		   border-radius: 4px;
+		   text-decoration: none;
+		   text-transform: uppercase;
+		   font-size: 24 px;
+		   border: 1px solide #bcbcbc;
+		   box-shadow: 0 0 5px #eee;
+}
+
+.simple-button {
+		@include button();
+		background: lime;
+}
+
+.atteneion-button {
+		@include button();
+		background: yellow;
+}
+
+.danger-batton {
+		@include button();
+		background: red;
+		width: 300px;
+}
+```
