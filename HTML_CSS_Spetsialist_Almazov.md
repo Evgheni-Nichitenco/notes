@@ -396,11 +396,11 @@ overflow: hidden;
 * Примеси (mixin) в SCSS
 
 ```
-@mixin button() {
+@mixin button($height: 80px, $width: 200px) {
 		   display: inline-block;
 		   margin: 4px;
-		   wisdth: 200px;
-		   height: 80px;
+		   width: $width;
+		   height: $heigt;
 		   text-align: center;
 		   line-height: 80px;
 		   border-radius: 4px;
