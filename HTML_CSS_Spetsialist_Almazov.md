@@ -396,6 +396,10 @@ overflow: hidden;
 * Примеси (mixin) в SCSS
 
 ```
+http://codepen.io/nichitenco/pen/MJaYrY
+```
+
+```
 @mixin button($height: 80px, $width: 200px) {
 		   display: inline-block;
 		   margin: 4px;
@@ -426,4 +430,27 @@ overflow: hidden;
 		background: red;
 		width: 300px;
 }
+```
+* Миксины, общий вид:
+```
+@mixin имя-примеси($параметр: значение по умолчанию) {
+	CSS-свойство: $параметр;
+}
+```
+
+* Пример подключения миксина:
+```
+.myclass {
+@include имя-примеси(значение);
+}
+```
+```
+@include позволяет включить примесь (@mixin) в код CSS
+```
+* Импорт файла со свойствами SCSS:
+
+```
+@import "reset.scss";
+или даже
+@import "reset";
 ```
