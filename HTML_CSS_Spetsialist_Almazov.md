@@ -454,3 +454,8 @@ http://codepen.io/nichitenco/pen/MJaYrY
 или даже
 @import "reset";
 ```
+* Сетка, @extend, импорт CSS
+
+```
+http://codepen.io/nichitenco/pen/apdgzG
+```
