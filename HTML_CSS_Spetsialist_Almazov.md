@@ -10,6 +10,14 @@ ul>li*4>a*3
 .wrapper>header+main+footer
 
 a.button{ссылка}*3
+
+ul.menu>li.menu-element*4>a.menu-link
+
+header+nav+main+footer
+
+ul.menu>li.menu-element*4>a.menu-link{Ссылка}
+
+.parent>a.child{Ссылка}
 ```
 ------------
 
@@ -331,8 +339,8 @@ a - альфаканал
 * Импорт CSS
 
     ```
-    @import "имя КСС файла";
-    @import "имя КСС файла";
+    @import "имя SCSS файла";
+    @import "имя SCSS файла";
 
     Используется для удобства при работе с Коалой.
     ```
@@ -459,3 +467,102 @@ http://codepen.io/nichitenco/pen/MJaYrY
 ```
 http://codepen.io/nichitenco/pen/apdgzG
 ```
+* Адаптивная верстка
+
+```
+https://codepen.io/nichitenco/pen/egZpZe
+```
+
+```
+css-tricks.com на сайте есть списки медиазапросов в зависимости от экрана разных моделей.
+```
+
+* uilang
+```
+вкл/выкл
+clicking on "button" toggles class "show" on ".menu"
+
+вкл
+clicking on "button" adds class "show" on ".menu"
+
+выкл
+clicking on "button" removes class "show" on ".menu"
+```
+* Лайтбокс с помощью скрипта Uilang
+```
+https://codepen.io/nichitenco/pen/MJjzpy
+```
+* Адаптивная верстка с помощью миксинов
+
+```
+http://codepen.io/nichitenco/pen/jyMjRr
+```
+unicode-table.com
+css-tricks.com
+thenewweb.com
+
+css-filters изучить
+
+* Адаптивное выпадающее меню с помощью скрипта Uilang
+
+```
+http://codepen.io/nichitenco/pen/mROgwZ
+```
+* HAML
+prepros.io умеет всее что коала + хамл
+
+Gulp/Grunt  консольные инструменты, очень крутые
+
+```
+!!!5 доктайп
+
+%html ШТМЛ
+
+/ Комментарий
+-#  Комментарий скрытый. Следить, чтобы не вложились теги, лежащие ниже.
+
+%h1 Заголовок
+
+%link{:href=>"styles.css", :rel=>"stylesheet"}
+
+%link{:rel=>"stylesheet", :href=>"styles.css"}
+```
+
+еще препроцессоры:
+
+node-webkit (nwjs.io) - NodeJS/Webkit
+electron
+
+* nw.js 
+
+Видео 02-4 Уровень 2 расскаывает о работе с nw.js
+и создании веб приложений.
+
+* Флексы
+
+flex-start по умолчанию
+flex-end все элементы дочерние справа
+center  в центре
+space-arround с зазором
+
+```
+http://codepen.io/nichitenco/pen/vggNYZ
+```
+
+# Уровень 3
+
+normalize.css альтернатива CSS
+
+input[type="text"]  Эммет
+
+Префиксами называют технологии, которые еще не вошли в 
+
+* Флексы
+
+justyfy-content свойство, которое задает правило размещения элементов внутри родительского элемента, если они не занимают всю площадь
+
+flex-start
+flex-end
+center
+space-between
+space-around
